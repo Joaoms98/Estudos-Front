@@ -18,6 +18,14 @@ const loop = setInterval (() => {
 
         pipe.style.animation = 'none';
         pipe.style.left = `${pipePosition}px`;
+
+        mario.style.animation = 'none';
+        mario.style.bottom = `${marioPosition}px`;
+
+        mario.src='/assets/images/blood-transfusion-red-blood-cell-red-blood-cell-blood-d723c01ba00b9eb63ddc8b9d642a15cb.png'
+        mario.style.width ='150px'
+
+        clearInterval(loop);
     }
 
 }, 10);
